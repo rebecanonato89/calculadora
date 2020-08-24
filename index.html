@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <script type="text/javascript" src="index.js"></script>
+    <div id="principal">
+        <div id="visor">
+            <input type="text" id="operacoes" value="0">
+        </div>
+        <div id="btt">
+            <table>
+                <tr>
+                    <td>
+                        <input type="button" value="7" onclick="values('7')" class="buttons">
+                    </td>
+                    <td>
+                        <input type="button" value="8" onclick="values('8')" class="buttons">
+                    </td>
+                    <td>
+                        <input type="button" value="9" onclick="values('9')" class="buttons">
+                    </td>
+                    <td>
+                        <input type="button" value="+" onclick="values('+')" class="buttons">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="4" onclick="values('4')" class="buttons">
+                    </td>
+                    <td>
+                        <input type="button" value="5" onclick="values('5')" class="buttons">
+                    </td>
+                    <td>
+                        <input type="button" value="6" onclick="values('6')" class="buttons">
+                    </td>
+                    <td>
+                        <input type="button" value="-" onclick="values('-')" class="buttons">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="1" onclick="values('1')" class="buttons">
+                    </td>
+                    <td>
+                        <input type="button" value="2" onclick="values('2')" class="buttons">
+                    </td>
+                    <td>
+                        <input type="button" value="3" onclick="values('3')" class="buttons">
+                    </td>
+                    <td>
+                        <input type="button" value="/" onclick="values('/')" class="buttons">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="0" onclick="values('0')" class="buttons">
+                    </td>
+                    <td>
+                        <input type="button" value="C" onclick="limpar()" class="buttons">
+                    </td>
+                    <td>
+                        <input type="button" value="=" onclick="resultado()" class="buttons">
+                    </td>
+                    <td>
+                        <input type="button" value="*" onclick="values('*')" class="buttons">
+                    </td>
+                </tr>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+
+</html>
