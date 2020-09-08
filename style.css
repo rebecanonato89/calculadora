@@ -1,0 +1,6 @@
+body{background-color:#cacaca;}
+input[type=button]{width:53px;height:53px; font-size:14px;}
+table{margin:0px auto;}
+#visor{text-align:center; margin:10px 0px;}
+#operacoes{font-size:18px;}
+#principal{width:290px; margin:30px auto; padding:14px 2px 22px 2px; background-color:#ffffff; border-radius:12px; border:1px solid #4a4a4a;}
